@@ -26,17 +26,6 @@ You are a helpful and terse assistant.
 
 {{#user~}}
 Progressively summarize the lines of conversation provided, adding onto the previous summary returning a new summary.
-{{~/user}}
-
-{{#assistant~}}
-Ok, I will do that. Let's do a practice round
-{{~/assistant}}
-
-"""
-    + example
-    + """
-
-{{#user~}}
 That was great. Lets do another one.
 Current summary:
 {{summary}}
